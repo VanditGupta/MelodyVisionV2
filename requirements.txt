@@ -1,0 +1,10 @@
+Flask==2.2.5
+nltk==3.8.1
+Pillow==10.2.0
+spotipy==2.23.0
+streamlit==1.30.0
+torch~=2.1.1
+transformers==4.37.2
+requests~=2.31.0
+gradio~=4.16.0
+python-dotenv==1.0.1

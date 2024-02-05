@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+melodyvis/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Project-specific files
+.idea/
+.vscode/
+
+# Local configuration file
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IPython
+.ipython/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore pytest cache
+.cach/
+.cache
+
+
+# Ignore Pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore poetry virtual environment
+poetry.lock
+pyproject.toml

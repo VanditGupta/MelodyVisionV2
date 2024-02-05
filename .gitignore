@@ -64,3 +64,5 @@ Pipfile.lock
 # Ignore poetry virtual environment
 poetry.lock
 pyproject.toml
+
+# Ignore pycache

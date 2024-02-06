@@ -11,7 +11,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Download NLTK stopwords
-RUN python -m nltk.downloader popular
+RUN python -m nltk.downloader stopwords
 
 # Expose the port that Streamlit will run on
 EXPOSE 8501

@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.11.7-slim-bookworm
+FROM python:3.11-slim-bookworm
 
 # Set the working directory to /app
 WORKDIR /app
@@ -17,4 +17,4 @@ RUN python -m nltk.downloader stopwords
 EXPOSE 8501
 
 # Run the Streamlit app
-CMD ["streamlit", "run", "app1.py"]
+CMD ["streamlit", "run", "app.py"]

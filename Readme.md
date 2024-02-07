@@ -2,6 +2,12 @@
 
 Melody Vision is an interactive Streamlit application that combines computer vision and natural language processing to generate captions for uploaded images and videos and recommend songs based on those captions using the Spotify API.
 
+# Deployed Application
+
+The application is deployed on HuggingFace. You can access it using the following link:
+[MelodyVision](https://huggingface.co/spaces/vanditgupta/melodyvision)
+
+
 # Features
 
 - **Image Captioning**: Upload an image and get a caption for it using the [nlpconnect/vit-gpt2-image-captioning](https://huggingface.co/nlpconnect/vit-gpt2-image-captioning) HuggingFace model.
@@ -41,7 +47,7 @@ pip install -r requirements.txt
 To run the application, use the following command:
 
 ```bash
-streamlit run app1.py
+streamlit run app.py
 ```
 
 Open the application in your browser:

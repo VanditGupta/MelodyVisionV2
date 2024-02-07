@@ -4,15 +4,29 @@ from PIL import Image
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import streamlit as st
+from streamlit import set_page_config
 import io
 from collections import Counter
 from nltk.corpus import stopwords
 import nltk
 import os
 from dotenv import load_dotenv
+from utils import set_background
+
 
 # Download stopwords from nltk
 nltk.download('stopwords')
+
+
+# Set page configuration
+set_page_config(
+    page_title="SightSync",
+    page_icon="🎵",
+    layout="centered",
+)
+
+# Set the background
+set_background("./wallpaper/lights.jpg")
 
 # Load environment variables from .env file
 load_dotenv()
@@ -150,7 +164,7 @@ def predict_step(uploaded_file, selected_keyword=None):
 
 
 # Streamlit UI
-st.title("Melody Vision")
+st.title("Sight-Sync")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png", "gif"])
 

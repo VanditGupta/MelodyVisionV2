@@ -1,11 +1,11 @@
-# Melody Vision
+# SightSync
 
-Melody Vision is an interactive Streamlit application that combines computer vision and natural language processing to generate captions for uploaded images and videos and recommend songs based on those captions using the Spotify API.
+SightSync is an interactive Streamlit application that combines computer vision and natural language processing to generate captions for uploaded images and videos and recommend songs based on those captions using the Spotify API.
 
 # Deployed Application
 
 The application is deployed on HuggingFace. You can access it using the following link:
-[MelodyVision](https://huggingface.co/spaces/vanditgupta/melodyvision)
+[SightSync](https://huggingface.co/spaces/vanditgupta/melodyvision)
 
 
 # Features
@@ -18,25 +18,32 @@ The application is deployed on HuggingFace. You can access it using the followin
 
 Before running the application, make sure to have the required libraries installed. You can install them using the following:
 
-1. Create a virtual environment (optional) using the following command:
+1. Create Spotify API credentials by following the instructions [here](https://developer.spotify.com/dashboard)
+2. Create a `.env` file in the project directory and add the following credentials:
+   ```bash
+   SPOTIPY_CLIENT_ID=your_client_id
+   SPOTIPY_CLIENT_SECRET=your_client_secret
+   ```
+
+3. Create a virtual environment (optional) using the following command:
 
 ```bash
-python -m venv melodyvis
-source melodyvis/bin/activate
+python -m venv sightsync
+source sightsync/bin/activate
 ```
 
-2. Clone the repository using the following command:
+4. Clone the repository using the following command:
 
 ```bash
-git clone https://github.com/VanditGupta/MelodyVisionV2.git
+git clone https://github.com/VanditGupta/SightSync.git
 ```
-3. Navigate to the project directory using the following command:
+5. Navigate to the project directory using the following command:
 
 ```bash
-cd MelodyVisionV2
+cd SightSync
 ```
 
-4. Install the required libraries using the following command:
+6.Install the required libraries using the following command:
 
 ```bash
 pip install -r requirements.txt

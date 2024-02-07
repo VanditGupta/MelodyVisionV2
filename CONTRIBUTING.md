@@ -1,11 +1,11 @@
-# Contributing to MelodyVision Project
+# Contributing to SightSync Project
 
-We welcome contributions to the MelodyVision project. This document provides guidelines and instructions for contributing.
+We welcome contributions to the SightSync project. This document provides guidelines and instructions for contributing.
 
 ## How to Contribute
 
 1. **Fork the Repository**
-   - Fork the MelodyVision repository on GitHub.
+   - Fork the SightSync repository on GitHub.
 
 2. **Clone the Forked Repository**
    - Clone your forked repository to your local machine.
@@ -27,7 +27,7 @@ We welcome contributions to the MelodyVision project. This document provides gui
    - Push the changes to your fork on GitHub.
 
 8. **Submit a Pull Request**
-   - Open a pull request from your fork to the main MelodyVision repository.
+   - Open a pull request from your fork to the main SightSync repository.
    - Clearly describe the purpose of your pull request in the description.
 
 9. **Code Review**
@@ -59,4 +59,4 @@ We strive to maintain a welcoming and inclusive community. We expect all contrib
 
 If you have any questions or need help with contributing, please feel free to reach out to me at [gupta.vandi@northeastern.edu](mailto:gupta.vandi@northeastern.edu)
 
-Thank you for contributing to MelodyVision!
+Thank you for contributing to SightSync!

@@ -5,7 +5,7 @@ SightSync is an interactive Streamlit application that combines computer vision 
 # Deployed Application
 
 The application is deployed on HuggingFace. You can access it using the following link:
-[SightSync](https://huggingface.co/spaces/vanditgupta/melodyvision)
+[SightSync](https://huggingface.co/spaces/vanditgupta/SightSync)
 
 
 # Features

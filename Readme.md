@@ -108,7 +108,7 @@ For any inquiries or contributions, please contact me at [gupta.vandi@northeaste
 
 ## Project Status
 
-This project is currently in active development. For the latest updates, please check our [GitHub repository](https://github.com/VanditGupta/Covid19_Detection).
+This project is currently in active development. For the latest updates, please check our [GitHub repository](https://github.com/VanditGupta/SightSync).
 
 
 

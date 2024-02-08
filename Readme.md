@@ -57,7 +57,7 @@ To run the application, use the following command:
 streamlit run app.py
 ```
 
-Open the application in your browser:
+Open the application in your browser using the local URL provided in the terminal:
    ```bash
    http://localhost:PORT_NUMBER/
    ```

@@ -59,7 +59,7 @@ streamlit run app.py
 
 Open the application in your browser:
    ```bash
-   http://localhost:8501/
+   http://localhost:PORT_NUMBER/
    ```
 
 ## Technologies Used
